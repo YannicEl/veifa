@@ -1,0 +1,31 @@
+{
+	"name": "wavy",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"/dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"watch": "tsc --watch",
+		"vite": "cd ./test && vite"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YannicEl/wavy.git"
+	},
+	"keywords": [],
+	"author": "Yannic Ellhotka",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/YannicEl/wavy/issues"
+	},
+	"homepage": "https://github.com/YannicEl/wavy#readme",
+	"devDependencies": {
+		"typescript": "^4.2.4",
+		"vite": "^2.1.5"
+	},
+	"dependencies": {}
+}

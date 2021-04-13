@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"module": "ESNext",
+		"target": "ES2015",
+		"outDir": "./dist"
+	},
+	"compileOnSave": true,
+	"include": ["src"]
+}
