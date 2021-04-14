@@ -1,8 +1,8 @@
 {
 	"name": "veifa",
-	"version": "0.0.1",
-	"description": "",
-	"main": "index.js",
+	"version": "0.0.4",
+	"description": "a small library to visualize audio",
+	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"files": [
 		"/dist"
