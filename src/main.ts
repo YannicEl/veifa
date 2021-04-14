@@ -1,6 +1,6 @@
 import { Renderer } from './renderer';
 
-export class Wavy {
+export class Veifa {
 	// audio stuff
 	private audioContext: AudioContext;
 	private audioBuffer: AudioBuffer;

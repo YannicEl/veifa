@@ -1,23 +1,21 @@
 import './style.css';
 
-import { Wavy, LineRenderer } from '../dist';
+import { Veifa, LineRenderer } from '../dist';
 
-window.onload = async () => {
-	const cavnas = document.getElementById('canvas');
-	const wavy = new Wavy(cavnas);
+const cavnas = document.getElementById('canvas');
+const veifa = new Veifa(cavnas);
 
-	const src = 'https://publicshitbucket.s3.eu-central-1.amazonaws.com/115.mp3';
-	await wavy.loadSrc(src);
+const src = 'https://publicshitbucket.s3.eu-central-1.amazonaws.com/115.mp3';
+await veifa.loadSrc(src);
 
-	wavy.renderer = new LineRenderer();
-	wavy.render();
+veifa.renderer = new LineRenderer();
+veifa.render();
 
-	const toggleButton = document.getElementById('toggle');
-	toggleButton.onclick = () => wavy.toggle();
+const toggleButton = document.getElementById('toggle');
+toggleButton.onclick = () => veifa.toggle();
 
-	const playButton = document.getElementById('play');
-	playButton.onclick = () => wavy.play();
+const playButton = document.getElementById('play');
+playButton.onclick = () => veifa.play();
 
-	const pauseButton = document.getElementById('pause');
-	pauseButton.onclick = () => wavy.pause();
-};
+const pauseButton = document.getElementById('pause');
+pauseButton.onclick = () => veifa.pause();

@@ -1,5 +1,5 @@
 {
-	"name": "wavy",
+	"name": "veifa",
 	"version": "0.0.1",
 	"description": "",
 	"main": "index.js",
@@ -15,15 +15,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/YannicEl/wavy.git"
+		"url": "git+https://github.com/YannicEl/veifa.git"
 	},
 	"keywords": [],
 	"author": "Yannic Ellhotka",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/YannicEl/wavy/issues"
+		"url": "https://github.com/YannicEl/veifa/issues"
 	},
-	"homepage": "https://github.com/YannicEl/wavy#readme",
+	"homepage": "https://github.com/YannicEl/veifa#readme",
 	"devDependencies": {
 		"typescript": "^4.2.4",
 		"vite": "^2.1.5"
