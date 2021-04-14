@@ -10,7 +10,8 @@
 	"scripts": {
 		"build": "tsc",
 		"watch": "tsc --watch",
-		"vite": "cd ./test && vite"
+		"vite": "cd ./test && vite",
+		"vite:build": "cd ./test && vite build"
 	},
 	"repository": {
 		"type": "git",

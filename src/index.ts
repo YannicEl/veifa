@@ -1,3 +1,4 @@
-import { helloWorld } from './main';
+import { Wavy } from './main';
+import { LineRenderer } from './renderer';
 
-export { helloWorld };
+export { Wavy, LineRenderer };
