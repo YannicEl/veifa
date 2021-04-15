@@ -11,11 +11,9 @@ export class LineRenderer implements Renderer {
 
 	render(ctx: CanvasRenderingContext2D, data: Float32Array): void {
 		const { height } = ctx.canvas;
-
-		console.log(ctx.lineWidth);
-
+		ctx.lineWidth = 2;
 		data.forEach((e, i) => {
-			drawLine(ctx, i, height, i, height - height * e);
+			drawLine(ctx, i, height, i, Math.floor(height - height * e));
 		});
 
 		console.log('rendering done');
