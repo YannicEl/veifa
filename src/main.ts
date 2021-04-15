@@ -1,4 +1,4 @@
-import { Renderer } from './renderer';
+import { Renderer } from './renderers';
 
 export class Veifa {
 	// audio stuff
@@ -28,6 +28,9 @@ export class Veifa {
 
 		this.canvas = canvas;
 		this.ctx = canvas.getContext('2d');
+
+		// set y to be in the middle of the canvas
+		this.ctx.translate(0, this.canvas.offsetHeight / 2);
 	}
 
 	public loadSrc = async (src: string): Promise<void> => {

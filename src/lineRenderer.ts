@@ -1,8 +1,6 @@
-import { drawLine } from './canvas';
 
-export interface Renderer {
-	render(ctx: CanvasRenderingContext2D, data: Float32Array): void;
-}
+import { drawLine } from './canvas';
+import { Renderer } from './renderers';
 
 export interface LineRendererConfig {}
 

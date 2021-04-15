@@ -1,4 +1,4 @@
 import { Veifa } from './main';
-import { LineRenderer } from './renderer';
+import { BarRenderer, LineRenderer } from './renderers';
 
-export { Veifa, LineRenderer };
+export { Veifa, BarRenderer, LineRenderer };

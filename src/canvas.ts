@@ -1,5 +1,5 @@
 /**
- * convenience function to draw a line between 2 points
+ * convenience function for drawing a line between 2 points
  *
  * @param ctx canvas context to draw on
  * @param x1 x coordinate of starting point
